@@ -20,6 +20,8 @@
   "license": "AGPL-3.0-only",
   "dependencies": {
     "@fontsource/inter": "4.5.14",
+    "@giphy/js-fetch-api": "5.4.0",
+    "@giphy/react-components": "9.4.1",
     "@khanacademy/simple-markdown": "0.8.6",
     "@matrix-org/olm": "3.2.14",
     "@tanstack/react-virtual": "3.0.0-beta.54",
@@ -27,6 +29,7 @@
     "@vanilla-extract/css": "1.9.3",
     "@vanilla-extract/recipes": "0.3.0",
     "@vanilla-extract/vite-plugin": "3.7.1",
+    "antd": "5.16.5",
     "await-to-js": "3.0.0",
     "blurhash": "2.0.4",
     "browser-encrypt-attachment": "0.3.0",
@@ -71,6 +74,7 @@
     "slate": "0.94.1",
     "slate-history": "0.93.0",
     "slate-react": "0.98.4",
+    "styled-components": "6.1.9",
     "tippy.js": "6.3.7",
     "twemoji": "14.0.2",
     "ua-parser-js": "1.0.35"

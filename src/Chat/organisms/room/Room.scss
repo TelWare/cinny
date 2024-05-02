@@ -1,0 +1,60 @@
+@use "../../partials/flex";
+@use "../../partials/screen";
+
+.room {
+  @extend .cp-fx__row;
+  height: 100%;
+
+  &__content {
+    @extend .cp-fx__item-one;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.room .people-drawer {
+  @include screen.smallerThan(tabletBreakpoint) {
+    display: none;
+  }
+}
+.iconButtonColor {
+  color: var(--ic-surface-normal);
+  &.fs-18 {
+    font-size: 18px;
+  }
+}
+.seenprofile-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  .avatar-profile {
+    padding: 0;
+    &:not(:first-child) {
+      margin-left: 3px;
+    }
+    button {
+      width: auto;
+      height: auto;
+      min-width: 16px;
+      min-height: 16px;
+    }
+    .avatar-container {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+  .img-wrap {
+    width: 16px;
+    height: 16px;
+    background-color: var(--bg-primary);
+    border-radius: 100%;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+    z-index: 1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        fill="none"
+        viewBox="0 0 20 20"
+      >
+        <path
+          d="M7.52214 14.9616H7.16797C4.33464 14.9616 2.91797 14.2533 2.91797 10.7116V7.16992C2.91797 4.33659 4.33464 2.91992 7.16797 2.91992H12.8346C15.668 2.91992 17.0846 4.33659 17.0846 7.16992V10.7116C17.0846 13.5449 15.668 14.9616 12.8346 14.9616H12.4805C12.2609 14.9616 12.0484 15.0678 11.9138 15.2449L10.8513 16.6616C10.3838 17.2849 9.6188 17.2849 9.1513 16.6616L8.0888 15.2449C7.97547 15.0891 7.71339 14.9616 7.52214 14.9616Z"
+          stroke="blue"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12.8307 9.29557H12.8371"
+          stroke="blue"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M9.99871 9.29557H10.0051"
+          stroke="blue"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M7.16278 9.29557H7.16914"
+          stroke="blue"
+          strokeWidth={1.5}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>

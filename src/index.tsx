@@ -8,11 +8,12 @@ import { configClass, varsClass } from 'folds';
 
 enableMapSet();
 
-import './index.scss';
+import './Chat/index.scss';
 
-import settings from './client/state/settings';
+import settings from './Chat/client/state/settings';
 
-import App from './app/pages/App';
+import App from './App';
+import ChatWrapper2 from './Chat/ChatWrapper2/ChatWrapper2';
 
 document.body.classList.add(configClass, varsClass);
 settings.applyTheme();
@@ -26,6 +27,7 @@ const mountApp = () => {
   }
 
   const root = createRoot(rootContainer);
+  // root.render(<ChatWrapper2 />);
   root.render(<App />);
 };
 

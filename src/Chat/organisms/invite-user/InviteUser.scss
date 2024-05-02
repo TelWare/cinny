@@ -1,0 +1,104 @@
+@use "../../partials/dir";
+@use "../../partials/screen";
+
+.invite-user {
+  overflow: hidden;
+  margin-top: var(--sp-extra-tight);
+  @include dir.side(margin, var(--sp-normal), var(--sp-extra-tight));
+
+  &__form {
+    display: flex;
+    align-items: flex-end;
+
+    & .input-container {
+      flex: 1;
+      min-width: 0;
+      @include dir.side(margin, 0, var(--sp-normal));
+    }
+
+    & .btn-primary {
+      padding: {
+        top: 8px;
+        bottom: 8px;
+      }
+    }
+  }
+
+  &__search-status {
+    margin-top: var(--sp-extra-loose);
+    margin-bottom: var(--sp-tight);
+    & .donut-spinner {
+      margin: 0 var(--sp-tight);
+    }
+  }
+  &__search-error {
+    color: var(--bg-danger);
+  }
+  &__content {
+    border-top: 1px solid var(--bg-surface-border);
+  }
+
+  & .room-tile {
+    margin-top: var(--sp-normal);
+    &__options {
+      align-self: flex-end;
+    }
+  }
+}
+
+.person-search-result {
+  max-height: 140px;
+  overflow: auto;
+  background: var(--bg-sky-100);
+  border: 1px solid rgb(226, 246, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 0 12px 12px;
+  .space-wrap {
+    gap: 0 !important;
+    flex-wrap: wrap;
+  }
+}
+.invite-user__content {
+  max-height: 500px;
+  padding-bottom: 60px;
+  @include screen.smallerThan(mobileBreakpoint) {
+    max-height: 1000px;
+  }
+}
+.start_conversation {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-surface);
+  padding: 12px 24px 12px 0;
+}
+.start_consversation_button {
+  background-color: #38a6de;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 0px 24px;
+  height: 38px;
+  float: right;
+  border-radius: 6px;
+  width: 168px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.disable_start_consversation_button {
+  background-color: rgb(100, 196, 245);
+  opacity: 0.5;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 0px 24px;
+  height: 38px;
+  border-radius: 6px;
+  float: right;
+}
