@@ -138,7 +138,7 @@ export const MessageEditor = as<"div", MessageEditorProps>(
             rel_type: RelationType.Replace
           }
         }
-
+        onCancel()
         return mx.sendMessage(roomId, content)
       }, [mx, editor, roomId, mEvent, isMarkdown, getPrevBodyAndFormattedBody])
     )
